@@ -31,6 +31,6 @@ lazy val commonSettings = Seq(
 
 lazy val scalaSettings = Seq(
   scalaVersion := "2.12.4",
-  crossScalaVersions := Seq("2.11.8", "2.12.4"),
+  crossScalaVersions := Seq("2.11.12", "2.12.4"),
   scalacOptions ++= Seq("-feature", "-unchecked", "-deprecation", "-Xlint", "-Xfatal-warnings", "-Ywarn-value-discard")
 )
